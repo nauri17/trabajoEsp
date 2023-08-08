@@ -8,6 +8,7 @@ body{
     
     font-family: 'Open-Sans' , sans-serif;
     justify-content: center;
+    align_items: center;
 }
 
 .contenedor{
