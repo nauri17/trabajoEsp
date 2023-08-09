@@ -233,12 +233,29 @@ footer{
     margin-bottom: 20px;
 }
 
+
 /*Pal celu*/
-@media screen and (max-width:900px){
-    header{
-        background-position: center;
-    }
-    .contenedor-sobre-nosotros{
+@media screen and (max-width: 900px) {
+    .contenedor-sobre-nosotros {
         flex-direction: column;
+    }
+    .imagen-about-us {
+        width: 80%; /* Ajustar el tamaño de la imagen para dispositivos móviles */
+        margin: auto; /* Centrar la imagen */
+    }
+    .contenido-textos {
+        width: 100%;
+        text-align: left; /* Alinear el texto a la izquierda */
+        margin-top: 20px; /* Ajustar el margen superior */
+    }
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card1,
+    .card2 {
+        width: 100%; /* Ajustar el ancho al 100% para dispositivos móviles */
+        margin: 10px 0; /* Ajustar el margen superior e inferior */
     }
 }
