@@ -257,5 +257,6 @@ footer{
     .card2 {
         width: 100%; /* Ajustar el ancho al 100% para dispositivos móviles */
         margin: 10px 0; /* Ajustar el margen superior e inferior */
+        margin-bottom:10px;
     }
 }
