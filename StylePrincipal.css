@@ -159,6 +159,12 @@ footer{
     color: #9e9797;
 }
 /*Tarjetas*/
+
+.container .titulo-card{
+    text-align: center;
+}
+
+
 .card1{
     border: 0 !important;
     border-radius: 6px;
