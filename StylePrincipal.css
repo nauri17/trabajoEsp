@@ -19,11 +19,13 @@ body{
 }
 
 .titulo{
-
-    color: #504b51;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #414141;
+    text-decoration: overline;
+    text-decoration: underline;
 }
 
 /* Header */
@@ -65,16 +67,11 @@ header .textos-header{
     font-size: 50px;
     color: #fff;
 }
+
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
     color: #fff;
-}
-.titulo{
-    color: #504b51;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 60px;
 }
 
 .wave{
@@ -88,14 +85,12 @@ header .textos-header{
     height: 50%;
 }
 
-.sobre-nosotros .contenido-textos{
-    width: 48%;
-}
-
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    
 }
+
 .sobre-nosotros .contenido-textos{
     width: 100%;
     text-align: right;
@@ -115,8 +110,8 @@ header .textos-header{
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 33px;
+    width: 32px;
+    height: 32px;
     padding: 0,5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 5px;
@@ -163,8 +158,11 @@ footer{
 
 .container .titulo-card{
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #414141;
+    text-decoration: overline;
+    text-decoration: underline;
 }
-
 
 .card1{
     border: 0 !important;
